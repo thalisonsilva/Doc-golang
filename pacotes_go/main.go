@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	"example.com/myapp/myapp/mathutil"
 )
+func main (){
+	sum := mathutil.Add (3, 4)
+	difference := mathutil.Subtract(10, 6)
 
-func main() {
-	
-	var arr [5]int
-	arr[0] = 1
-	fmt.Println(arr)
-
+	fmt.Println("Sum: ", sum)
+	fmt.Println("Difference: ", difference)
 }
