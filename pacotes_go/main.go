@@ -10,4 +10,5 @@ func main (){
 
 	fmt.Println("Sum: ", sum)
 	fmt.Println("Difference: ", difference)
+	fmt.Println("Olá, Thalison")
 }
